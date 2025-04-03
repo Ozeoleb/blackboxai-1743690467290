@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "French Chicken Sauce",
+    "category": "chicken",
+    "image": "images/french_chicken.jpg",
+    "description": "Elegant and savory, perfect with poultry.",
+    "price": "$6.99"
+  },
+  {
+    "id": 2,
+    "name": "Thai Chicken Sauce",
+    "category": "chicken",
+    "image": "images/thai_chicken.jpg",
+    "description": "Aromatic and vibrant, brings an exotic touch.",
+    "price": "$7.49"
+  },
+  {
+    "id": 3,
+    "name": "Brown Mushroom Chicken Sauce",
+    "category": "chicken",
+    "image": "images/brown_mushroom_chicken.jpg",
+    "description": "Earthy and rich, enhances the natural flavors.",
+    "price": "$6.79"
+  },
+  {
+    "id": 4,
+    "name": "White Mushroom Chicken Sauce",
+    "category": "chicken",
+    "image": "images/white_mushroom_chicken.jpg",
+    "description": "Creamy and delicate, a classic pairing.",
+    "price": "$7.29"
+  },
+  {
+    "id": 5,
+    "name": "Mexican Chicken Sauce",
+    "category": "chicken",
+    "image": "images/mexican_chicken.jpg",
+    "description": "Spicy and bold, adds a Southwestern kick.",
+    "price": "$6.49"
+  },
+  {
+    "id": 6,
+    "name": "Peanut Chicken Sauce",
+    "category": "chicken",
+    "image": "images/peanut_chicken.jpg",
+    "description": "Nutty and savory, a delightful Asian-inspired sauce.",
+    "price": "$7.99"
+  },
+  {
+    "id": 7,
+    "name": "Roast Garlic Chicken Sauce",
+    "category": "chicken",
+    "image": "images/roast_garlic_chicken.jpg",
+    "description": "Intense garlic flavor, roasted to perfection.",
+    "price": "$6.99"
+  },
+  {
+    "id": 8,
+    "name": "Tuscana Chicken Sauce",
+    "category": "chicken",
+    "image": "images/tuscana_chicken.jpg",
+    "description": "Hearty and rustic, with sun-dried tomatoes and herbs.",
+    "price": "$7.79"
+  },
+  {
+    "id": 9,
+    "name": "Parsley Pasta Sauce",
+    "category": "pasta",
+    "image": "images/parsley_pasta.jpg",
+    "description": "Fresh and herbaceous, a light and bright choice.",
+    "price": "$5.49"
+  },
+  {
+    "id": 10,
+    "name": "Carbonara Pasta Sauce",
+    "category": "pasta",
+    "image": "images/carbonara_pasta.jpg",
+    "description": "Rich and creamy, with eggs, cheese, and pancetta.",
+    "price": "$8.29"
+  },
+  {
+    "id": 11,
+    "name": "Alfredo Pasta Sauce",
+    "category": "pasta",
+    "image": "images/alfredo_pasta.jpg",
+    "description": "Classic creamy sauce, perfect for fettuccine.",
+    "price": "$7.99"
+  },
+  {
+    "id": 12,
+    "name": "Tomato Pasta Sauce",
+    "category": "pasta",
+    "image": "images/tomato_pasta.jpg",
+    "description": "Simple and versatile, a staple for any pasta dish.",
+    "price": "$4.99"
+  },
+  {
+    "id": 13,
+    "name": "Lemon Pasta Sauce",
+    "category": "pasta",
+    "image": "images/lemon_pasta.jpg",
+    "description": "Zesty and refreshing, a light and flavorful option.",
+    "price": "$6.29"
+  },
+  {
+    "id": 14,
+    "name": "Scoglio Pasta Sauce",
+    "category": "pasta",
+    "image": "images/scoglio_pasta.jpg",
+    "description": "Seafood lover's delight, with a medley of ocean flavors.",
+    "price": "$9.99"
+  },
+  {
+    "id": 15,
+    "name": "Lemon Capers Seafood Sauce",
+    "category": "seafood",
+    "image": "images/lemon_capers_seafood.jpg",
+    "description": "Tangy and bright, complements fish beautifully.",
+    "price": "$7.79"
+  },
+  {
+    "id": 16,
+    "name": "Cilantro Seafood Sauce",
+    "category": "seafood",
+    "image": "images/cilantro_seafood.jpg",
+    "description": "Fresh and herbaceous, adds a vibrant touch to seafood.",
+    "price": "$7.49"
+  },
+  {
+    "id": 17,
+    "name": "Romesco Seafood Sauce",
+    "category": "seafood",
+    "image": "images/romesco_seafood.jpg",
+    "description": "Smoky and nutty, a Spanish-inspired delight.",
+    "price": "$8.49"
+  },
+  {
+    "id": 18,
+    "name": "Sucre Salad Dressing",
+    "category": "salad",
+    "image": "images/sucre_salad.jpg",
+    "description": "Light and tangy, perfect for leafy greens.",
+    "price": "$4.29"
+  },
+  {
+    "id": 19,
+    "name": "Italian Salad Dressing",
+    "category": "salad",
+    "image": "images/italian_salad.jpg",
+    "description": "Classic and herby, enhances any salad.",
+    "price": "$3.99"
+  },
+  {
+    "id": 20,
+    "name": "Crab Salad Dressing",
+    "category": "salad",
+    "image": "images/crab_salad.jpg",
+    "description": "Rich and flavorful, ideal for seafood salads.",
+    "price": "$5.79"
+  },
+  {
+    "id": 21,
+    "name": "Hawaii Salad Dressing",
+    "category": "salad",
+    "image": "images/hawaii_salad.jpg",
+    "description": "Sweet and tropical, adds an island twist.",
+    "price": "$4.59"
+  },
+  {
+    "id": 22,
+    "name": "Caesar Salad Dressing",
+    "category": "salad",
+    "image": "images/caesar_salad.jpg",
+    "description": "Creamy and savory, a timeless classic.",
+    "price": "$4.79"
+  }
+]
