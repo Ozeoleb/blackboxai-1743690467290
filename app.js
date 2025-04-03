@@ -112,30 +112,22 @@ document.addEventListener('DOMContentLoaded', function() {
         window.open(whatsappUrl, '_blank');
     });
 
-    // Navigation functionality
-    document.querySelector('.cart-link').addEventListener('click', function(e) {
-        e.preventDefault();
-        console.log('Cart link clicked'); // Debug log
-        const modalElement = document.getElementById('cartModal');
-        if (modalElement) {
-            console.log('Modal element found'); // Debug log
-            const cartModal = new bootstrap.Modal(modalElement);
-            cartModal.show();
-            console.log('Modal shown'); // Debug log
-            updateCartUI(); // Ensure cart is updated when modal opens
-        } else {
-            console.error('Modal element not found');
-        }
-    });
+    // Initialize modal and cart functionality
+    const modalElement = document.getElementById('cartModal');
+    if (modalElement) {
+        window.cartModal = new bootstrap.Modal(modalElement);
+        console.log('Cart modal initialized');
 
-    // Initialize modal on page load
-    document.addEventListener('DOMContentLoaded', function() {
-        const modalElement = document.getElementById('cartModal');
-        if (modalElement) {
-            window.cartModal = new bootstrap.Modal(modalElement);
-            console.log('Modal initialized on page load');
-        }
-    });
+        // Navigation functionality
+        document.querySelector('.cart-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            console.log('Cart link clicked - showing modal');
+            window.cartModal.show();
+            updateCartUI(); // Refresh cart contents when modal opens
+        });
+    } else {
+        console.error('Cart modal element not found');
+    }
 
     // Category filtering
     function filterProducts(category) {
